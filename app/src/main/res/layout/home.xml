@@ -25,7 +25,25 @@
         android:layout_height="wrap_content"
         android:text="Signout"
         android:id="@+id/button5"
+        android:onClick="signout"
+        android:layout_marginBottom="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="29dp" />
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analogClock"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="signout" />
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
